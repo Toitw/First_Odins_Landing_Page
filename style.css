@@ -190,3 +190,14 @@ h2 {
     font-size: medium;
     font-weight: bold;
 }
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+}
