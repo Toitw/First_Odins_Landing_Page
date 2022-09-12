@@ -145,3 +145,48 @@ h2 {
     justify-content: right;
     font-size: 24px;
 }
+
+/*ctaBlock*/
+
+.ctaBlock {
+    background-color: white;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.ctaBlock-inside {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px;
+    gap: 100px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.ctaBlock-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta2Title {
+    margin: 0%;
+    color: #F9FAF8;
+}
+
+.cta2SubText {
+    color: #E5E7EB;
+}
+
+.cta2 {
+    background-color: #3882f6;
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 7px;
+    height: 60px;
+    width: 180px;
+    font-size: medium;
+    font-weight: bold;
+}
